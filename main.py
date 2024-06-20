@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from dataapi import en_uz, uz_en
+from data import en_uz, uz_en
 
 app = FastAPI()
 
