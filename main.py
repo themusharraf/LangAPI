@@ -5,7 +5,6 @@ app = FastAPI(
     title="FastAPI En to Uz translate api example source"
 )
 
-
 @app.get("/")
 async def home_page():
     return {"message": "EN / UZ lang endpoint"}
