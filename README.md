@@ -3,13 +3,20 @@
 
 
 ### Instalation
-
+## Step 1
 ```shell
-get clone 
-
-pip install -r requirements.txt
+git clone https://github.com/themusharraf/LangAPI.git
+```
+## Step 2
+```bash
+python3 -m venv venv
+source venv/bin/activate
 ```
 
+## Step 3
+```shell
+pip install -r requirements.txt
+```
 
    
   
