@@ -2,18 +2,18 @@
 ![image](https://github.com/themusharraf/LangAPI/assets/122869450/1615440d-e561-4f24-b357-c86c6f05f35b)
 
 
-### Instalation
-## Step 1
+## Instalation
+### Step 1
 ```shell
 git clone https://github.com/themusharraf/LangAPI.git
 ```
-## Step 2
+### Step 2
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-## Step 3
+### Step 3
 ```shell
 pip install -r requirements.txt
 ```
