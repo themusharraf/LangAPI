@@ -1,7 +1,9 @@
 from fastapi import FastAPI
 from data import en_uz, uz_en
 
-app = FastAPI()
+app = FastAPI(
+    title="FastAPI En to Uz translate api example source"
+)
 
 
 @app.get("/")
