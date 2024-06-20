@@ -18,6 +18,14 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+## Deploy to [render.com](render.com)
+
+### Start Command
+## Render runs this command to start your app with each deploy.
+``` bash
+uvicorn main:app --host 0.0.0.0 --port $PORT
+```
+
    
   
  
